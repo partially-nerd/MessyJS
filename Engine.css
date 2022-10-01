@@ -1,0 +1,46 @@
+/* HTML */
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* NATIVE HTML UI ELEMENTS */
+.uiblur {
+    backdrop-filter: blur(25px);
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.uibutton,
+.uientry {
+    position: fixed;
+    padding: 20px 10px;
+    border: 1px solid transparent;
+    color: white;
+    outline: 0px;
+    border-radius: 5px;
+}
+
+.uibuttondisabled,
+.uientrydisabled {
+    background: rgba(0, 0, 0, 0.4);
+    color: gray;
+}
+
+.uibuttondisabled:hover,.uientrydisabled:hover{
+    color: rgb(138, 28, 28);
+    text-decoration: line-through;
+}
+
+.uibox{
+    position: fixed;
+    border-radius: 5px;
+    color: white;
+}
+
+.uicanvas{
+    position: fixed;
+    z-index: 0;
+    border:0;
+    height:100vh;
+    width: 100vw;
+}
